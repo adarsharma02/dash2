@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+nav {
+  background-color: #fff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  width: 96vw;
+  margin: auto;
+  height: 4rem;
+}
+aside {
+  height: fit-content;
+  width: 250px;
+  background-color: #fff;
+  display: inline-block;
+  padding-left: 2rem;
+}
+
+.sidebar h1 {
+  padding: 15px;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+.sidebar h3 {
+  margin-top: 15px;
+  margin-left: 50px;
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+.content h1 {
+  padding: 15px;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+.content h3 {
+  margin-top: 15px;
+  margin-left: 50px;
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+article {
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  width: 85%;
+  height: 90vh;
+  background-color: rgb(238, 242, 246);
+  border-radius: 5px;
+
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  /* position: fixed; */
+  /* top: 0; */
+  display: inline-block;
+ 
+}
+.min-navbar {
+  height: 40px;
+  width: 94%;
+  background-color: #fff;
+  margin-top: 15px;
+  margin-left: 45px;
+  border-radius: 5px;
+  color: black;
+}
+.min-navbar h1 {
+  position: absolute;
+  margin-left: 15px;
+}
+.max-content {
+  
+}
+.max-content h1 {
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+}
+.input-field {
+  /* height: 1000px; */
+  width: 94%;
+  background-color: #fff;
+  top: 0;
+  margin-left: 45px;
+  display: flex;
+
+  margin-right: 15px;
+}
+#personal-details {
+  height: 500px;
+  width: 46%;
+  padding: 13px;
+  background-color: aqua;
+  margin-right: 30px;
+}
+#personal-details2 {
+  height: 500px;
+  padding: 13px;
+  width: 46%;
+  background-color: aqua;
+  margin-left: 30px;
+}
+input {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+
+
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10vw;
+  
+}
+
+.nav-container i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: relative;
+  top: 4px;
+}
+
+.nav-container svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+  position: relative;
+  margin-left: 2rem;
+}
+.search-box input{
+  width: 25vw;
+  height: 3rem;
+  padding-left: 2rem;
+}
+.search-box input::placeholder{
+  /* padding-left: 2rem; */
+}
+
+.search-box i{
+ position: absolute;
+ margin-left: .5rem;
+}
+
+
+
+.tool-box svg{
+  box-sizing: content-box;
+width: 1.5rem;
+height: 1.5rem;
+color: blueviolet;
+border: 2px solid blueviolet;
+padding: 3px;
+border-radius: 5px;
+}
+
+.tool-box{
+  width: 4.5vw;
+}
+
+.profile-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blueviolet;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.profile-box img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.personalInfo{
+  width: 35vw;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+  margin-left: 1rem;
+  background-color: white;
+ 
+}
+
+.firstOne{
+  width: 35vw;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.firstOne input{
+  width: 18vw;
+  padding-left: 1rem;
+}
+.secondOne{
+  width: 35vw;
+}
+.secondOne input{
+  width: 35vw;
+  margin-top: 2rem;
+  height: 5rem;
+  padding-left: 1rem;
+}
+.thirdOne{
+  width: 35vw;
+  margin-top: 2rem;
+
+}
+
+.thirdOne input{
+  width: 18vw;
+  padding-left: 1rem;
+  float: left;
+  
+}
+
+.headings{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+  width: 30vw;
+}
+.headings h2{
+  font-size: 1.3rem;
+}
+
+.max-content{
+  background-color: white;
+  color: black;
+  width: 94%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.myBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.something{
+  margin-left: 4rem;
+  margin-top: 0rem;
+}
